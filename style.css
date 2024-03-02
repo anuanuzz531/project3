@@ -1,0 +1,422 @@
+.nav-item{
+    padding-left:20px;
+    font-size: 14px;
+    
+    font-weight: 500;
+    margin-right: 20px;
+}
+.nav-link{
+    color: black;
+}
+
+#mynavbar{
+    padding: 10px;
+   
+}
+
+
+
+.logo{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.navbar-brand{
+    text-align: center;
+}
+#bg{
+    background-image: url(https://c1.wallpaperflare.com/preview/991/116/43/light-tree-christmas-light-christmas-tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.holiday{
+    
+    margin-top: 5%;
+    text-align: center;
+    font-family: Forte;
+    font-style: italic;
+}
+.your{
+    margin-top: 30px;
+    font-family:cursive;
+    text-align: center;
+}
+.front{
+    margin-top: 40px;
+    margin-left: 45%;
+}
+.est{
+    font-family: monospace;
+    font-size: 18px;
+}
+.btn{
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20%;
+    
+    
+}
+.start-btn{
+    background-color: red;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    
+    
+}
+.image{
+    margin: 30px;
+    margin-top: -130px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: Lucida Calligraphy;
+    font-size: 20px;
+}
+
+.text-3{
+margin-top: 20px;
+}
+.hr-line{
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 45%;
+    border-bottom: 2px solid red;
+}
+#red{
+    
+    
+}
+.shop{
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 15px;
+    background:none;
+    border-radius: 30px;
+    padding: 5px 30px;
+    border: 1px solid black;
+}
+.shop:hover{
+    background-color: rgb(227, 37, 37);
+    border: none;
+    transition: 1s;
+    color: white;
+}
+
+
+.red-box{
+    border: 3px white;
+    padding: 65px;
+    padding-left: 9%;
+    padding-right: 14%;
+ 
+    position: absolute;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.shopnow{
+    background-color: red;
+    color: white;
+    border:1px solid white;
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin-top: 50px;
+    font-size: 20x;
+    
+}
+.shopnow:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+   
+}
+#product{
+    
+}
+.new{
+    padding: 20px 10px;
+    
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border: none;
+   text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.product{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+   
+}
+.all{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-family: Californian FB;
+    color: rgb(85, 82, 82);
+    text-align: center;
+    margin-top: 20px;
+    
+    
+    
+}
+.all-products{
+    margin-top: 50px;
+    font-size: px;
+    text-align: center;
+}
+.img-box{
+    margin-top: 50px;
+    position: relative;
+    transition: transform .2s;
+  max-width: 300px;
+    
+}
+
+.img-box:hover{
+    transform: scale(1.1);
+   
+  
+}
+.item{
+    display: block;
+  width: 100%;
+  height: auto;
+ 
+}
+.item:hover{
+  
+   
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(255, 254, 254);
+    background: rgb(255, 255, 255); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  .img-box:hover .overlay{
+    opacity: 0.6;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+
+  }
+
+.price{
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.redline{
+    border-bottom: 1px solid red;
+    width: 10%;
+    margin-left: 45%;
+    
+}
+.dollar{
+    text-align: center;
+}
+.add{
+    text-align: center;
+   margin-top: 20px;
+   transition: transform .2s;
+
+}
+.cart{
+    border: none;
+    background-color: red;
+    padding: 10px 65px;
+    color: white;
+    margin-bottom: 70px;
+    
+   
+}
+.cart:hover{
+    background-color: rgb(227, 37, 37);
+}
+.overlay:hover.cart{
+   overflow:scroll;
+   font-weight: 600;
+   width: 100%;
+   transform: scale(1.1);
+   
+}
+#form-bg{
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20240204/pngtree-female-hands-with-gift-box-for-valentine-s-day-on-a-image_15605818.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+.form{
+    width:40%;
+  margin-left: 50%;
+    margin-top: 10%;
+    opacity: 0.8;
+}
+.for{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    margin-left: 40%;
+}
+#bottom-sec{
+background-color: rgba(24, 27, 64, 0.895);
+
+color: white;
+}
+.botique{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.white-line{
+color: white;
+border-bottom: 1px solid;
+
+}
+.footer{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.footer:hover{
+    text-decoration:none ;
+    color: white;
+}
+.follow{
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}
+.fol{
+    margin-top: 10%;
+}
+.fi{
+    color: white;
+    padding: 10px;
+   
+}
+.footer-icons{
+    margin-top: 25%;
+}
+.shipping{
+    padding:20px;
+    color: red;
+    text-decoration: none;
+}
+.shipping:hover{
+    color: red;
+}
+.policy{
+    margin-top: 10%; 
+    margin-bottom: 60px;
+}
+.div{
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+
+@media (max-width:360px) {
+  .light-img1{
+    margin-top: 100%;
+  }  
+  .btn{
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20%;
+    
+    
+} 
+
+.image{
+    margin: 30px;
+    margin-top: -30px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: Lucida Calligraphy;
+    font-size: 20px;
+}
+.btn{
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20%;
+    
+    
+}
+.shop{
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    background:none;
+    border-radius: 30px;
+    padding: 5px 30px;
+    border: 1px solid black;
+}
+
+.red-box{
+    border: 3px white;
+    padding: 15px;
+    padding-left: 15%;
+    padding-right: 14%;
+    margin-top: 6px;
+    position: absolute;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.product{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+   
+}
+.img-box{
+    margin-top: 50px;
+    margin-left: 5%;
+    position: relative;
+    transition: transform .2s;
+  max-width: 300px;
+    
+}
+.form-control{
+    margin-right: 50px;
+}
+#f1{
+ margin-bottom: 10px;
+}
+.shipping{
+    padding:1px;
+    color: red;
+    text-decoration: none;
+}
+.front{
+    margin-top: 40px;
+   
+}
+.white{
+    margin-right:50%;
+    text-align: center;
+}
+}
