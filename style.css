@@ -42,8 +42,14 @@
     text-align: center;
 }
 .front{
-    margin-top: 40px;
-    margin-left: 45%;
+    margin-top: 30px;
+    margin-left: 46%;
+}
+.year{
+   
+        margin-top: 10px;
+        margin-left:26%;
+ 
 }
 .est{
     font-family: monospace;
@@ -54,6 +60,10 @@
     margin-top: 20px;
     margin-bottom: 20%;
     
+    
+}
+.white{
+    margin-left:43% ;
     
 }
 .start-btn{
